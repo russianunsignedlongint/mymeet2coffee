@@ -54,6 +54,18 @@
                 <x-jet-input id="socialmedia" class="block mt-1 w-full" placeholder="Facebook, Instagram, LinkedIn, etc." type="text" name="socialmedia" :value="old('socialmedia')" required autofocus autocomplete="socialmedia" />
             </div>
 
+            <div class="mt-4">
+                <label class="md:w-2/3 block text-gray-500 font-bold">
+                    <input class="mr-2 leading-tight" type="checkbox">
+                    <span class="text-sm">
+                        I confirm that my data can be used for purposes described in
+                        <a class="underline" href="{{ route('privacy-policy') }}">
+                            {{ __('Privacy Policy') }}
+                        </a>
+                    </span>
+                </label>
+            </div>
+
             <div class="flex items-center justify-end mt-4">
                 <a class="underline text-sm text-gray-600 hover:text-gray-900 ml-4" href="{{ route('privacy-policy') }}">
                     {{ __('Privacy Policy') }}
