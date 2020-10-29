@@ -10,11 +10,11 @@
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <!--<x-jet-welcome />-->
 		<div>
-			<h1>Title of the Form</h1>
+			<h1>Welcome Page</h1>
 
-			<p> Row #1 of the form</p1>
-			<p> Row #2 of the form</p1>
-			<p> Row #3 of the form</p1>
+			<p> Some Information #1</p1>
+			<p> Some Information #2</p1>
+			<p> Some Information #3</p1>
 
 		</div>
             </div>
