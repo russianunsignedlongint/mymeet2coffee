@@ -6,8 +6,17 @@
 
         <x-jet-validation-errors class="mb-4" />
 
+        <h1>Meet2Coffee</h1>
+
         <form method="POST" action="{{ route('register') }}">
             @csrf
+
+            <div>
+                <x-jet-label for="intro" value="{{ __('Because of COVID-19 we became pretty isolated. Isolation does not 
+                mean that we should stop networking though. Once you fill out the form below, you will get a chance
+                to contact a person that shares your interests and you could set up a Zoom or Skype conference.') }}" />
+                </br>
+            </div>
 
             <div>
                 <x-jet-label for="name" value="{{ __('Name') }}" />
