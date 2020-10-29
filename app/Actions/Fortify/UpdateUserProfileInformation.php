@@ -22,6 +22,11 @@ class UpdateUserProfileInformation implements UpdatesUserProfileInformation
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'email', 'max:255', Rule::unique('users')->ignore($user->id)],
             'photo' => ['nullable', 'image', 'max:1024'],
+            'work' => ['required', 'string', 'max:255'],
+            'hobbies' => ['required', 'string', 'max:255'],
+            'plans' => ['required', 'string', 'max:255'],
+            'why' => ['required', 'string', 'max:255'],
+            'socialmedia' => ['required', 'string', 'max:255'],
         ])->validateWithBag('updateProfileInformation');
 
         if (isset($input['photo'])) {
@@ -35,6 +40,11 @@ class UpdateUserProfileInformation implements UpdatesUserProfileInformation
             $user->forceFill([
                 'name' => $input['name'],
                 'email' => $input['email'],
+                'work' => $input['work'],
+                'hobbies' => $input['hobbies'],
+                'plans' => $input['plans'],
+                'why' => $input['why'],
+                'socialmedia' => $input['socialmedia'],
             ])->save();
         }
     }
@@ -52,6 +62,11 @@ class UpdateUserProfileInformation implements UpdatesUserProfileInformation
             'name' => $input['name'],
             'email' => $input['email'],
             'email_verified_at' => null,
+            'work' => $input['work'],
+            'hobbies' => $input['hobbies'],
+            'plans' => $input['plans'],
+            'why' => $input['why'],
+            'socialmedia' => $input['socialmedia'],
         ])->save();
 
         $user->sendEmailVerificationNotification();
