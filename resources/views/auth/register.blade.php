@@ -29,6 +29,31 @@
                 <x-jet-input id="password_confirmation" class="block mt-1 w-full" type="password" name="password_confirmation" required autocomplete="new-password" />
             </div>
 
+            <div class="mt-4">
+                <x-jet-label for="work" value="{{ __('Work') }}" />
+                <x-jet-input id="work" class="block mt-1 w-full" type="text" name="work" :value="old('work')" required autofocus autocomplete="work" />
+            </div>
+
+            <div class="mt-4">
+                <x-jet-label for="hobbies" value="{{ __('Hobbies') }}" />
+                <x-jet-input id="hobbies" class="block mt-1 w-full" type="text" name="hobbies" :value="old('hobbies')" required autofocus autocomplete="hobbies" />
+            </div>
+
+            <div class="mt-4">
+                <x-jet-label for="plans" value="{{ __('Plans') }}" />
+                <x-jet-input id="plans" class="block mt-1 w-full" type="text" name="plans" :value="old('plans')" required autofocus autocomplete="plans" />
+            </div>
+
+            <div class="mt-4">
+                <x-jet-label for="why" value="{{ __('Why Us?') }}" />
+                <x-jet-input id="why" class="block mt-1 w-full" type="text" name="why" :value="old('why')" required autofocus autocomplete="why" />
+            </div>
+
+            <div class="mt-4">
+                <x-jet-label for="socialmedia" value="{{ __('Social Media') }}" />
+                <x-jet-input id="socialmedia" class="block mt-1 w-full" type="text" name="socialmedia" :value="old('socialmedia')" required autofocus autocomplete="socialmedia" />
+            </div>
+
             <div class="flex items-center justify-end mt-4">
                 <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
                     {{ __('Already registered?') }}

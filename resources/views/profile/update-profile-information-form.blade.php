@@ -65,6 +65,41 @@
             <x-jet-input id="email" type="email" class="mt-1 block w-full" wire:model.defer="state.email" />
             <x-jet-input-error for="email" class="mt-2" />
         </div>
+
+        <!-- Work -->
+        <div class="col-span-6 sm:col-span-4">
+            <x-jet-label for="work" value="{{ __('Work') }}" />
+            <x-jet-input id="work" type="text" class="mt-1 block w-full" wire:model.defer="state.work" autocomplete="work" />
+            <x-jet-input-error for="work" class="mt-2" />
+        </div>
+
+        <!-- Hobbies -->
+        <div class="col-span-6 sm:col-span-4">
+            <x-jet-label for="hobbies" value="{{ __('Hobbies') }}" />
+            <x-jet-input id="hobbies" type="text" class="mt-1 block w-full" wire:model.defer="state.hobbies" autocomplete="hobbies" />
+            <x-jet-input-error for="hobbies" class="mt-2" />
+        </div>
+
+        <!-- Plans -->
+        <div class="col-span-6 sm:col-span-4">
+            <x-jet-label for="plans" value="{{ __('Plans') }}" />
+            <x-jet-input id="plans" type="text" class="mt-1 block w-full" wire:model.defer="state.plans" autocomplete="plans" />
+            <x-jet-input-error for="plans" class="mt-2" />
+        </div>
+
+        <!-- Why -->
+        <div class="col-span-6 sm:col-span-4">
+            <x-jet-label for="why" value="{{ __('Why') }}" />
+            <x-jet-input id="why" type="text" class="mt-1 block w-full" wire:model.defer="state.why" autocomplete="why" />
+            <x-jet-input-error for="why" class="mt-2" />
+        </div>
+
+        <!-- Social Media -->
+        <div class="col-span-6 sm:col-span-4">
+            <x-jet-label for="socialmedia" value="{{ __('Social Media') }}" />
+            <x-jet-input id="socialmedia" type="text" class="mt-1 block w-full" wire:model.defer="state.socialmedia" autocomplete="socialmedia" />
+            <x-jet-input-error for="socialmedia" class="mt-2" />
+        </div>
     </x-slot>
 
     <x-slot name="actions">
