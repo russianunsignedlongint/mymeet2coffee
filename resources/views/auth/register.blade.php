@@ -13,8 +13,8 @@
 
             <div>
                 <x-jet-label for="intro" value="{{ __('Because of COVID-19 we became pretty isolated. Isolation does not 
-                mean that we should stop networking though. Once you fill out the form below, you will get a chance
-                to contact a person that shares your interests and you could set up a Zoom or Skype conference.') }}" />
+                mean that we should stop networking though. Once you fill out the form below, we will send yoiu every week
+                contact data to a person that shares your interests and you could set up a Zoom or Skype conference.') }}" />
                 </br>
             </div>
 
