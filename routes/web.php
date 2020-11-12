@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Mail\WelcomeMail;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,7 @@ Route::get('privacy-policy', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('profile.show');
 })->name('dashboard');
+
+Route::get('/email', function () {
+    Mail::to('radomski.adr@gmail.com')->send(new WelcomeMail());
+});
