@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Mail\WelcomeMail;
+use App\Http\Controllers\PartnerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,3 +30,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 Route::get('/email', function () {
     Mail::to('radomski.adr@gmail.com')->send(new WelcomeMail());
 });
+
+// Route::resource('partners', PartnerController::class);
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/partners', [PartnerController::class, 'index'])->name('partners');
