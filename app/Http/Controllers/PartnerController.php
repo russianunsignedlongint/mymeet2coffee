@@ -14,8 +14,12 @@ class PartnerController extends Controller
 {
     public function index()
     {
-        $partner_id = auth()->user()->partners->last()->partner_id;
-        $partner = User::find($partner_id);
+        if(auth()->user()->partners->last()) {
+            $partner_id = auth()->user()->partners->last()->partner_id;
+            $partner = User::find($partner_id);
+        } else {
+            return view('profile.partners')->with('error', true);
+        }
 
         // Will return a ModelNotFoundException if no user with that id
         if($partner) {
