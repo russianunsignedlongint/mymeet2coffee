@@ -5,12 +5,8 @@
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
-            Please screenshot this picture and tag munich_stu.
-            <img src="{{asset('/img/meet2coffee-marketing.jpg')}}" height="500" width="500" style="float: center">
-        </div>
-
-        <div class="mb-4 text-xl text-gray-600">
-            <h1><b>I am using Meet2coffee.com. That's the way I meet every week new students from Munich.</b></h1>
+            {{ __('Welcome to Meet2Coffee!') }}
+            <img src="{{asset('/img/turtlerock.jpg')}}" height="300" width="300" style="float: center">
         </div>
 
         <div class="mb-4 text-sm text-gray-600">
