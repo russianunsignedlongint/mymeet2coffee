@@ -64,9 +64,9 @@
             <div class="mt-4">
                 <label class="md:w-2/3 block font-bold">
                     <span class="text-sm">
-                        By clicking Register button you confirm that my data can be used for purposes described in
+                        By clicking Register button you confirm that your data can be used for purposes described in
                         <a class="underline" href="{{ route('privacy-policy') }}">
-                            {{ __('Privacy Policy') }}
+                            {{ __('Privacy Policy.') }}
                         </a>
                     </span>
                 </label>
