@@ -62,10 +62,9 @@
             </div>
 
             <div class="mt-4">
-                <label class="md:w-2/3 block text-gray-500 font-bold">
-                    <input class="mr-2 leading-tight" type="checkbox">
+                <label class="md:w-2/3 block font-bold">
                     <span class="text-sm">
-                        I confirm that my data can be used for purposes described in
+                        By clicking Register button you confirm that my data can be used for purposes described in
                         <a class="underline" href="{{ route('privacy-policy') }}">
                             {{ __('Privacy Policy') }}
                         </a>
