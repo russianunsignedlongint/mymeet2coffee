@@ -10,7 +10,7 @@
         </div>
 
         <div class="mb-4 text-sm text-gray-600">
-            {{ __('Thank you! \n To finish the registration process please verify your email. We have sent a verification email with a confirmation link to your email address. Don\'t forget to check your SPAM folder.') }}
+            {{ __('Thank you! To finish the registration process please verify your email. We have sent a verification email with a confirmation link to your email address. Don\'t forget to check your SPAM folder.') }}
         </div>
 
 
