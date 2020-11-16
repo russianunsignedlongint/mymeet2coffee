@@ -5,8 +5,8 @@
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
-            <!--{{ __('Welcome to Meet2Coffee!') }}-->
-            <!--<img src="{{asset('/img/turtlerock.jpg')}}" height="300" width="300" style="float: center">-->
+            {{ __('Welcome to Meet2Coffee!') }}
+            <img src="{{asset('/img/meet2coffee-marketing.jpg')}}" height="300" width="300" style="float: center">
         </div>
 
         <div class="mb-4 text-sm text-gray-600">
