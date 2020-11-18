@@ -5,12 +5,11 @@
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
-            <!--{{ __('Welcome to Meet2Coffee!') }}-->
-            <!--<img src="{{asset('/img/turtlerock.jpg')}}" height="300" width="300" style="float: center">-->
+            <img src="{{asset('/img/meet2coffee-marketing3.jpg')}}" height="900" width="900" style="float: center">
         </div>
 
         <div class="mb-4 text-sm text-gray-600">
-            {{ __('Thank you! To finish the registration process please verify your email. We have sent a verification email with a confirmation link to your email address. Don\'t forget to check your SPAM folder.') }}
+            <!--{{ __('Thank you! To finish the registration process please verify your email. We have sent a verification email with a confirmation link to your email address. Don\'t forget to check your SPAM folder.') }}-->
         </div>
 
 
