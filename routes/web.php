@@ -27,6 +27,10 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('profile.show');
 })->name('dashboard');
 
+Route::middleware(['auth:sanctum', 'verified'])->get('/verified', function () {
+    return view('auth.verified');
+})->name('verified');
+
 Route::get('/email', function () {
     Mail::to('radomski.adr@gmail.com')->send(new WelcomeMail());
 });
