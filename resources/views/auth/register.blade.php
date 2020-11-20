@@ -14,6 +14,11 @@
             <div>
                 <x-jet-label for="intro" value="{{ __('Don’t let the isolation stop us from networking! 😎 After filling out the information below, we will send you an e-mail once a week with the contact information of a person you are matched with based on your interests. Communication between you and your partner takes place in a 20-minute Zoom call.') }}" />
                 </br>
+                
+                <p><span style="font-weight: 400;">Don&rsquo;t let the isolation stop us from networking! 😎</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">After filling out the information below, we will send you an e-mail once a week with the contact information of a person you are matched with based on your interests. Communication between you and your partner takes place in a 20-minute Zoom call.</span></p>
+
             </div>
 
             <div>
