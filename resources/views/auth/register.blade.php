@@ -12,7 +12,9 @@
             @csrf
 
             <div>
-                <x-jet-label for="intro" value="{{ __('After filling out the information below, we will send you per E-mail once a week a contact of a person who shares the same interests as you do. You can set up a Zoom call to network with your partner. Don’t let the isolation stop us from networking! 😎') }}" />
+                <x-jet-label for="intro" value="{{ __('<p><span style="font-weight: 400;">Don&rsquo;t let the isolation stop us from networking! 😎</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">After filling out the information below, we will send you an e-mail once a week with the contact information of a person you are matched with based on your interests. Communication between you and your partner takes place in a 20-minute Zoom call.</span></p>') }}" />
                 </br>
             </div>
 
