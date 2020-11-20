@@ -56,7 +56,7 @@
 
             <div class="mt-4">
                 <x-jet-label for="why" value="{{ __('Why are you interested in using our service?') }}" />
-                <x-jet-input id="why" class="block mt-1 w-full" placeholder="I want to meet new people." type="text" name="why" :value="old('why')" required autofocus autocomplete="why" />
+                <x-jet-input id="why" class="block mt-1 w-full" placeholder="......" type="text" name="why" :value="old('why')" required autofocus autocomplete="why" />
             </div>
 
             <div class="mt-4">
