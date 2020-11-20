@@ -13,8 +13,7 @@
 
             <div>
                
-                 <x-jet-label for="intro" value="{{ __('Don’t let the isolation stop us from networking! 😎 After filling out the information below, we will send you an e-mail once a week with the contact information of a person you are matched with based on your interests. Communication between you and your partner takes place in a 20-minute Zoom call.') }}" />
-
+               <x-jet-label for="intro" value="{{ __('Don’t let the isolation stop us from networking! 😎 After filling out the information below, we will send you an e-mail once a week with the contact information of a person you are matched with based on your interests. Communication between you and your partner takes place in a 20-minute Zoom call.') }}" />
                 </br>
                 
 
@@ -51,12 +50,12 @@
             </div>
 
             <div class="mt-4">
-                <x-jet-label for="plans" value="{{ __('How do you see yourself in 10 years?') }}" />
+                <x-jet-label for="plans" value="{{ __('Where do you see yourself in 10 years?') }}" />
                 <x-jet-input id="plans" class="block mt-1 w-full" placeholder="Describe yourself in 10 years." type="text" name="plans" :value="old('plans')" required autofocus autocomplete="plans" />
             </div>
 
             <div class="mt-4">
-                <x-jet-label for="why" value="{{ __('Why do you need community and new connections?') }}" />
+                <x-jet-label for="why" value="{{ __('Why are you interested in using our service?') }}" />
                 <x-jet-input id="why" class="block mt-1 w-full" placeholder="I want to meet new people." type="text" name="why" :value="old('why')" required autofocus autocomplete="why" />
             </div>
 
