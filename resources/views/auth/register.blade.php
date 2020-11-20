@@ -14,7 +14,7 @@
             <div>
                <p>&nbsp;</p>
                <x-jet-label for="intro" value="{{ __('Don’t let the isolation stop us from networking! 😎 ') }}" />
-               <x-jet-label for="intro" value="{{ __('After filling out the information below, we will send you an e-mail once a week with the contact information of a person you are matched with based on your interests. Communication between you and your partner takes place in a 20-minute Zoom call.') }}" />
+               <x-jet-label for="intro" value="{{ __('After filling out the information below, we will send you an e-mail once a week with the contact information of a person you are matched with based on your interests. Communication between you and your partner takes place in a 15-minute Zoom call.') }}" />
                 </br>
             </div>
 
