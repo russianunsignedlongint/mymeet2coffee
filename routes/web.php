@@ -16,7 +16,7 @@ use App\Http\Controllers\PartnerController;
 */
 
 Route::get('/', function () {
-    return view('auth.register');
+    return view('auth.login');
 });
 
 Route::get('privacy-policy', function () {
