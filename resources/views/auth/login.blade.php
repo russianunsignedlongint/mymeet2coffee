@@ -48,11 +48,12 @@
         
 
         <div class="flex items-center justify-center mt-4">
-            <x-jet-danger-button>
+            </br></br></br>
+            <x-jet-button>
                 <a href="{{ route('register') }}">
                     {{ __('Create New Account') }}
                 </a>
-            </x-jet-danger-button>
+            </x-jet-button>
         </div>
     </x-jet-authentication-card>
 </x-guest-layout>
