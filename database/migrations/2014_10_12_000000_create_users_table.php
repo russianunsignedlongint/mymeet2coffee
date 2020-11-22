@@ -24,6 +24,7 @@ class CreateUsersTable extends Migration
             $table->string('plans');
             $table->string('why');
             $table->string('socialmedia');
+            $table->string('active')->default("0");
             $table->rememberToken();
             $table->foreignId('current_team_id')->nullable();
             $table->text('profile_photo_path')->nullable();

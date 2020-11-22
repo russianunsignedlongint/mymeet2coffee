@@ -100,6 +100,13 @@
             <x-jet-input id="socialmedia" type="text" placeholder="Facebook, Instagram, LinkedIn, etc." class="mt-1 block w-full" wire:model.defer="state.socialmedia" autocomplete="socialmedia" />
             <x-jet-input-error for="socialmedia" class="mt-2" />
         </div>
+
+        <!-- Active -->
+        <div class="col-span-6 sm:col-span-4">
+            <x-jet-label for="active" value="{{ __('Active') }}" />
+            <x-jet-input id="active" type="text" placeholder="Active" class="mt-1 block w-full" wire:model.defer="state.active" autocomplete="active" />
+            <x-jet-input-error for="active" class="mt-2" />
+        </div>
     </x-slot>
 
     <x-slot name="actions">
