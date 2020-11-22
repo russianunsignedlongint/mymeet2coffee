@@ -22,6 +22,15 @@
                 {{ __($data->name) }}
         </h3>
 
+        <!-- Name -->
+        <div class=mt-5>
+            {{ __('Name') }}
+        </div>
+
+        <div class="mt-3 max-w-xl text-sm text-gray-600">
+                <p>{{ $data->name }}</p>
+        </div>
+
         <!-- E-Mail -->
         <div class=mt-5>
             {{ __('E-Mail') }}
