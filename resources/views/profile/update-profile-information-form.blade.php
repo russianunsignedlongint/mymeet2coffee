@@ -102,9 +102,18 @@
         </div>
 
         <!-- Active -->
-        <div class="col-span-6 sm:col-span-4">
+        <!-- <div class="col-span-6 sm:col-span-4">
             <x-jet-label for="active" value="{{ __('Active') }}" />
             <x-jet-input id="active" type="text" placeholder="Active" class="mt-1 block w-full" wire:model.defer="state.active" autocomplete="active" />
+            <x-jet-input-error for="active" class="mt-2" />
+        </div> -->
+
+        <div class="col-span-6 sm:col-span-4">
+            <x-jet-label for="active" value="{{ __('Active') }}" />
+            <select id="active" class="mt-1 block w-full" wire:model.defer="state.active">
+                <option value="0">False</option>
+                <option value="1">True</option>
+            </select>
             <x-jet-input-error for="active" class="mt-2" />
         </div>
     </x-slot>
