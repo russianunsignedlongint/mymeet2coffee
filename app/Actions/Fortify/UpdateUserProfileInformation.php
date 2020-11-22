@@ -27,6 +27,7 @@ class UpdateUserProfileInformation implements UpdatesUserProfileInformation
             'plans' => ['required', 'string', 'max:255'],
             'why' => ['required', 'string', 'max:255'],
             'socialmedia' => ['required', 'string', 'max:255'],
+            'active' => ['required', 'boolean', 'max:1'],
         ])->validateWithBag('updateProfileInformation');
 
         if (isset($input['photo'])) {
@@ -45,6 +46,7 @@ class UpdateUserProfileInformation implements UpdatesUserProfileInformation
                 'plans' => $input['plans'],
                 'why' => $input['why'],
                 'socialmedia' => $input['socialmedia'],
+                'active' => $input['active'],
             ])->save();
         }
     }
@@ -67,6 +69,7 @@ class UpdateUserProfileInformation implements UpdatesUserProfileInformation
             'plans' => $input['plans'],
             'why' => $input['why'],
             'socialmedia' => $input['socialmedia'],
+            'active' => $input['active'],
         ])->save();
 
         $user->sendEmailVerificationNotification();
