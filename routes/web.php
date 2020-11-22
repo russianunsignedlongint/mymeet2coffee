@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
+Route::get('register', function() {
+    return view('auth.register');
+})->name('register');
+
 Route::get('privacy-policy', function () {
     return view('auth.privacy-policy');
 })->name('privacy-policy');
