@@ -32,15 +32,7 @@
         </div>
 
 
-        <div class=mt-5>
-            {{ __('E-Mail') }}
-        </div>
-
-        <div class="mt-3 max-w-xl text-sm text-gray-600">
-                <p>{{ __($data->name) }}</p>
-        </div>
-
-        <!-- Work 
+        <!-- Work -->
         <div class=mt-5>
             {{ __('Work') }}
         </div>
@@ -49,7 +41,7 @@
                 <p>{{ $data->work }}</p>
         </div>
 
-        <!-- Hobbies 
+        <!-- Hobbies -->
         <div class=mt-5>
             {{ __('Hobbies') }}
         </div>
@@ -58,7 +50,7 @@
                 <p>{{ $data->hobbies }}</p>
         </div>
 
-        <!-- Plans 
+        <!-- Plans -->
         <div class=mt-5>
             {{ __('Plans') }}
         </div>
@@ -75,8 +67,8 @@
         <div class="mt-3 max-w-xl text-sm text-gray-600">
                 <p>{{ $data->plans }}</p>
         </div>
-
-        <!-- Social Media
+-->
+        <!-- Social Media-->
         <div class=mt-5>
             {{ __('Social Media') }}
         </div>
@@ -84,7 +76,7 @@
         <div class="mt-3 max-w-xl text-sm text-gray-600">
                 <p>{{ $data->socialmedia }}</p>
         </div>
--->
+
 
     </x-slot>
     @else
