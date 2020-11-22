@@ -109,7 +109,7 @@
         </div> -->
 
         <div class="col-span-6 sm:col-span-4">
-            <x-jet-label for="active" value="{{ __('Are you participating this week?') }}" />
+            <x-jet-label for="active" value="{{ __('Are you participating in matching this week?') }}" />
             <select id="active" class="mt-1 block w-full" wire:model.defer="state.active">
                 <option value="0">No</option>
                 <option value="1">Yes</option>
