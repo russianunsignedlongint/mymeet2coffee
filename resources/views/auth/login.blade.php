@@ -12,6 +12,10 @@
             </div>
         @endif
 
+                <h1>
+                    Don’t let the isolation stop us from networking! 😎
+                </h1>
+
         <form method="POST" action="{{ route('login') }}">
             @csrf
 
