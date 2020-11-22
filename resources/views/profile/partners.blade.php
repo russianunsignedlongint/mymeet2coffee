@@ -17,10 +17,12 @@
     </x-slot>
 
     @if($error == false)
+    <!--
     <x-slot name="content">
         <h3 class="text-lg font-medium text-gray-900">
                 {{ __($data->name) }}
         </h3>
+         -->
 
         <!-- Name -->
         <div class=mt-5>
