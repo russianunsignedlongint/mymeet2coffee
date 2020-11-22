@@ -66,35 +66,35 @@
             <x-jet-input-error for="email" class="mt-2" />
         </div>
 
-        <!-- Work -->
+        <!-- Work
         <div class="col-span-6 sm:col-span-4">
             <x-jet-label for="work" value="{{ __('Briefly describe where you work or what you study.') }}" />
             <x-jet-input id="work" type="text" placeholder="I study medicine and work at a hospital." class="mt-1 block w-full" wire:model.defer="state.work" autocomplete="work" />
             <x-jet-input-error for="work" class="mt-2" />
         </div>
 
-        <!-- Hobbies -->
+        <!-- Hobbies 
         <div class="col-span-6 sm:col-span-4">
             <x-jet-label for="hobbies" value="{{ __('What are your interests and passions (4 hobbies)?') }}" />
             <x-jet-input id="hobbies" type="text" placeholder="Tennis, Travel, Startups, Chess etc." class="mt-1 block w-full" wire:model.defer="state.hobbies" autocomplete="hobbies" />
             <x-jet-input-error for="hobbies" class="mt-2" />
         </div>
 
-        <!-- Plans -->
+        <!-- Plans 
         <div class="col-span-6 sm:col-span-4">
             <x-jet-label for="plans" value="{{ __('How do you see yourself in 10 years?') }}" />
             <x-jet-input id="plans" type="text" placeholder="Describe yourself in 10 years." class="mt-1 block w-full" wire:model.defer="state.plans" autocomplete="plans" />
             <x-jet-input-error for="plans" class="mt-2" />
         </div>
 
-        <!-- Why -->
+        <!-- Why
         <div class="col-span-6 sm:col-span-4">
             <x-jet-label for="why" value="{{ __('Why do you need community and new connections?') }}" />
             <x-jet-input id="why" type="text" placeholder="I want to meet new people." class="mt-1 block w-full" wire:model.defer="state.why" autocomplete="why" />
             <x-jet-input-error for="why" class="mt-2" />
         </div>
 
-        <!-- Social Media -->
+        <!-- Social Media 
         <div class="col-span-6 sm:col-span-4">
             <x-jet-label for="socialmedia" value="{{ __('Link on social media') }}" />
             <x-jet-input id="socialmedia" type="text" placeholder="Facebook, Instagram, LinkedIn, etc." class="mt-1 block w-full" wire:model.defer="state.socialmedia" autocomplete="socialmedia" />
