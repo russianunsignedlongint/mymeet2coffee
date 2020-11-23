@@ -62,9 +62,8 @@
         </div>
 
         <div class="flex items-center justify-center mt-4">
-            </br></br></br>
-            <x-jet-button>
-                <a class="underline text-sm text-gray-600 hover:text-gray-900 ml-4" href="{{ route('privacy-policy') }}">
+    
+            <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('privacy-policy') }}">
                     {{ __('Privacy Policy & Imprint') }}
                 </a>
             </x-jet-button>
