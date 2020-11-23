@@ -53,7 +53,7 @@
                 <p>{{ $data->work }}</p>
         </div>
 
-        <!-- Hobbies -->
+        <!-- Hobbies 
         <div class=mt-5>
             {{ __('Hobbies') }}
         </div>
@@ -61,8 +61,9 @@
         <div class="mt-3 max-w-xl text-sm text-gray-600">
                 <p>{{ $data->hobbies }}</p>
         </div>
+        -->
 
-        <!-- Plans -->
+        <!-- Plans 
         <div class=mt-5>
             {{ __('Plans') }}
         </div>
@@ -70,7 +71,7 @@
         <div class="mt-3 max-w-xl text-sm text-gray-600">
                 <p>{{ $data->plans }}</p>
         </div>
-
+        -->
         <!-- Plans 
         <div class=mt-5>
             {{ __('Plans') }}
