@@ -31,6 +31,10 @@ Route::get('about', function () {
     return view('about');
 })->name('about');
 
+Route::get('faq', function () {
+    return view('faq');
+})->name('faq');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('profile.show');
 })->name('dashboard');
