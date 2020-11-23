@@ -11,11 +11,13 @@
                 {{ session('status') }}
             </div>
         @endif
-
+                <p>&nbsp;</p>
                 <h1>
                     Don’t let the isolation stop us from networking! 😎
+                    <p>&nbsp;</p>
+                    <x-jet-label for="intro" value="{{ __('Fill out the information about you, and we will send you an e-mail once a week with the contact information of a person you are matched with based on your interests. Communication between you and your partner takes place in a 15-minute Zoom call.') }}" />
                 </h1>
-
+                <p>&nbsp;</p>
         <form method="POST" action="{{ route('login') }}">
             @csrf
 
@@ -46,7 +48,7 @@
                         {{ __('Forgot your password?') }}
                     </a>
                 @endif
-
+                
                 <x-jet-button class="ml-4">
                     {{ __('Login') }}
                 </x-jet-button>
@@ -63,5 +65,14 @@
                 </a>
             </x-jet-button>
         </div>
+
+        <div class="flex items-center justify-center mt-4">
+
+                <a class="underline text-sm text-gray-600 hover:text-gray-900 ml-4" href="{{ route('privacy-policy') }}">
+                    {{ __('Privacy Policy & Imprint') }}
+                </a>
+        </div>
+
+
     </x-jet-authentication-card>
 </x-guest-layout>
