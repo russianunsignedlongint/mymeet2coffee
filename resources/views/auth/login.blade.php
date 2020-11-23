@@ -61,13 +61,6 @@
             </x-jet-button>
         </div>
 
-        <div class="flex items-center justify-center mt-4">
-    
-            <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('privacy-policy') }}">
-                    {{ __('Privacy Policy & Imprint') }}
-                </a>
-            </x-jet-button>
-        </div>
 
 
     </x-jet-authentication-card>
