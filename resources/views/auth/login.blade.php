@@ -14,6 +14,8 @@
                 <p>&nbsp;</p>
                 <h1>
                     Don’t let the isolation stop us from networking! 😎
+
+                    <x-jet-label for="intro" value="{{ __('After filling out the information about you,we will send you an e-mail once a week with the contact information of a person you are matched with based on your interests. Communication between you and your partner takes place in a 15-minute Zoom call.') }}" />
                 </h1>
                 <p>&nbsp;</p>
         <form method="POST" action="{{ route('login') }}">
