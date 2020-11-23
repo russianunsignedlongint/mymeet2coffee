@@ -11,7 +11,7 @@
                 {{ session('status') }}
             </div>
         @endif
-
+                <p>&nbsp;</p>
                 <h1>
                     Don’t let the isolation stop us from networking! 😎
                 </h1>
