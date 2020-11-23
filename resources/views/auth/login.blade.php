@@ -15,7 +15,7 @@
                 <h1>
                     Don’t let the isolation stop us from networking! 😎
                 </h1>
-
+                <p>&nbsp;</p>
         <form method="POST" action="{{ route('login') }}">
             @csrf
 
