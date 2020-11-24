@@ -120,8 +120,8 @@
         <div class="col-span-6 sm:col-span-4">
             <x-jet-label for="Partner_NoResponce" value="{{ __('Did your partner respond last week?') }}" />
             <select id="Partner_NoResponce" class="mt-1 block w-full" wire:model.defer="state.Partner_NoResponce">
-                <option value="0">No</option>
-                <option value="1">Yes</option>
+                <option value="0">Yes</option>
+                <option value="1">No</option>
             </select>
             <x-jet-input-error for="Partner_NoResponce" class="mt-2" />
         </div>
