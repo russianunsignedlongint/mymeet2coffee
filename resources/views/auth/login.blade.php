@@ -56,9 +56,6 @@
             </div>
 
             <div class="flex items-center justify-end mt-4">
-                    <a class="underline text-sm text-gray-600 hover:text-gray-900 ml-4" href="{{ route('about') }}">
-                        {{ __('About Us') }}
-                    </a>
 
                 @if (Route::has('password.request'))
                     <a class="underline text-sm text-gray-600 hover:text-gray-900 ml-4" href="{{ route('password.request') }}">
@@ -84,6 +81,10 @@
         </div>
 
         <div class="flex items-center justify-center mt-4">
+
+                <a class="underline text-sm text-gray-600 hover:text-gray-900 ml-4" href="{{ route('about') }}">
+                    {{ __('About Us') }}
+                </a>
 
                 <a class="underline text-sm text-gray-600 hover:text-gray-900 ml-4" href="{{ route('privacy-policy') }}">
                     {{ __('Privacy Policy & Imprint') }}
