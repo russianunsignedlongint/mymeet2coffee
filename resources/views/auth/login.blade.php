@@ -4,7 +4,7 @@
                     @auth
                         <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
                     @else
-                        <a href="{{ route('faq') }}" class="text-sm text-gray-700 underline ml-4">FAQ</a>
+                        <!-- <a href="{{ route('faq') }}" class="text-sm text-gray-700 underline ml-4">FAQ</a> -->
 
                         <a href="{{ route('about') }}" class="text-sm text-gray-700 underline ml-4">About Us</a>
 
