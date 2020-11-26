@@ -20,9 +20,9 @@
                         {{ __('Partners') }}
                     </x-jet-nav-link>
 
-                    <x-jet-nav-link href="{{ route('feedback_get') }}" :active="request()->routeIs('feedback_get')">
+                    <!-- <x-jet-nav-link href="{{ route('feedback_get') }}" :active="request()->routeIs('feedback_get')">
                         {{ __('Feedback') }}
-                    </x-jet-nav-link>
+                    </x-jet-nav-link> -->
                 </div>
             </div>
 
