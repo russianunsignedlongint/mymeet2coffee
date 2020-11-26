@@ -59,8 +59,8 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/partners', [PartnerContro
 //     //dd(auth()->user()->feedbacks->last()->message);
 // })->name('feedback');
 
-// Route::middleware(['auth:sanctum', 'verified'])->get('/feedback', function() {
-//     return view('profile.feedback');
-// })->name('feedback_get');
+Route::middleware(['auth:sanctum', 'verified'])->get('/feedback', function() {
+    return view('profile.feedback');
+})->name('feedback_get');
 
-// Route::middleware(['auth:sanctum', 'verified'])->post('/feedback', [FeedbackController::class, 'store'])->name('feedback_post');
+Route::middleware(['auth:sanctum', 'verified'])->post('/feedback', [FeedbackController::class, 'store'])->name('feedback_post');
