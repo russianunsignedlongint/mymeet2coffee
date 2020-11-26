@@ -125,6 +125,11 @@
             </select>
             <x-jet-input-error for="Partner_NoResponce" class="mt-2" />
         </div>
+
+        <div class="col-span-6 sm:col-span-4">
+            <x-jet-label for="feedback" value="{{ __('Would you like to give us feedback or do you have some remarks regarding the service?') }}" />
+            <a href="mailto:info.meet2coffee@gmail.com">Send us an E-mail</a>
+        </div>
     </x-slot>
 
     <x-slot name="actions">
