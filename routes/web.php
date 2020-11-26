@@ -3,6 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use App\Mail\WelcomeMail;
 use App\Http\Controllers\PartnerController;
+use App\Http\Controllers\FeedbackController;
+
+use App\Models\User;
+use App\Feedback;
 
 /*
 |--------------------------------------------------------------------------
@@ -50,3 +54,13 @@ Route::get('/email', function () {
 // Route::resource('partners', PartnerController::class);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/partners', [PartnerController::class, 'index'])->name('partners');
+
+// Route::middleware(['auth:sanctum', 'verified'])->get('/feedback', function () {
+//     //dd(auth()->user()->feedbacks->last()->message);
+// })->name('feedback');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/feedback', function() {
+    return view('profile.feedback');
+})->name('feedback_get');
+
+Route::middleware(['auth:sanctum', 'verified'])->post('/feedback', [FeedbackController::class, 'store'])->name('feedback_post');
