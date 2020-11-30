@@ -18,8 +18,8 @@
             @endif
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <!-- <x-jet-authentication-card-logo /> -->
-            <img src="{{asset('/img/logo.png')}}" height="200" width="200" style="float: center">
+            <x-jet-authentication-card-logo />
+            <!-- <img src="{{asset('/img/logo.png')}}" height="200" width="200" style="float: center"> -->
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />
