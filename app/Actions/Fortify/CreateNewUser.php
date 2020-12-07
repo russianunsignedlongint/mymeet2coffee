@@ -30,6 +30,7 @@ class CreateNewUser implements CreatesNewUsers
             'plans' => ['required', 'string', 'max:255'],
             'why' => ['required', 'string', 'max:255'],
             'socialmedia' => ['required', 'string', 'max:255'],
+            'threethingsaboutme' => ['required', 'string', 'max:255'],
         ])->validate();
 
         return DB::transaction(function () use ($input) {
@@ -42,6 +43,7 @@ class CreateNewUser implements CreatesNewUsers
                 'plans' => $input['plans'],
                 'why' => $input['why'],
                 'socialmedia' => $input['socialmedia'],
+                'threethingsaboutme' => $input['threethingsaboutme'],
             ]), function (User $user) {
                 $this->createTeam($user);
             });

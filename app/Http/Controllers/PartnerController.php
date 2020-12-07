@@ -29,6 +29,7 @@ class PartnerController extends Controller
             $data->work = $partner->work;
             $data->hobbies = $partner->hobbies;
             $data->plans = $partner->plans;
+            $data->threethingsaboutme = $partner->threethingsaboutme;
             $data->why = $partner->why;
             $data->socialmedia = $partner->socialmedia;
 
