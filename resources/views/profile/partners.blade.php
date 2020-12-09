@@ -11,10 +11,10 @@
     <x-slot name="title">
         {{ __('Profile of your partner') }}
     </x-slot>
-
+<!--
     <x-slot name="description">
         {{ __('Contact him.') }}
-    </x-slot>
+    </x-slot>-->
 
     @if($error == false)
     
