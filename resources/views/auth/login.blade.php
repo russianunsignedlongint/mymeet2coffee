@@ -19,6 +19,7 @@
     <x-jet-authentication-card>
         <x-slot name="logo">
             <x-jet-authentication-card-logo />
+            <img src="image2vector.svg" alt="My SVG Icon">
             <!-- <img src="{{asset('/img/logo.png')}}" height="200" width="200" style="float: center"> -->
             <!-- <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
             width="188.000000pt" height="182.400000pt" viewBox="0 0 1222.000000 1216.000000"
