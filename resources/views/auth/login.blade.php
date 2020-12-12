@@ -27,7 +27,7 @@
               <div>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>  -->
         
  
-                    
+                    <!-- 
                     <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                     width="960.000000pt" height="540.000000pt" viewBox="0 0 960.000000 540.000000"
                     preserveAspectRatio="xMidYMid meet">
@@ -182,7 +182,7 @@
                     </g>
                     </svg>
 
-           
+           -->
        
 
             <!-- <img src="{{asset('/img/logo.png')}}" height="200" width="200" style="float: center"> -->
