@@ -71,8 +71,8 @@
             </div>
 
             <div class="mt-4">
-                <x-jet-label for="threethingsaboutme" value="{{ __('Three things about yourself') }}" />
-                <x-jet-input id="threethingsaboutme" class="block mt-1 w-full" placeholder="Share your superpowers with us." type="text" name="threethingsaboutme" :value="old('threethingsaboutme')" required autofocus autocomplete="threethingsaboutme" />
+                <x-jet-label for="threethingsaboutme" value="{{ __('3 things how you can be useful for other users') }}" />
+                <x-jet-input id="threethingsaboutme" class="block mt-1 w-full" placeholder="I have connections in banking sector, I can create websites and I know how to invest in stocks" type="text" name="threethingsaboutme" :value="old('threethingsaboutme')" required autofocus autocomplete="threethingsaboutme" />
             </div>
 
             <div class="mt-4">
