@@ -89,8 +89,8 @@
 
         <!-- Three Things About Me -->
         <div class="col-span-6 sm:col-span-4">
-            <x-jet-label for="threethingsaboutme" value="{{ __('Three interesting things about yourself.') }}" />
-            <x-jet-input id="threethingsaboutme" type="text" placeholder="Tell us about your superpowers." class="mt-1 block w-full" wire:model.defer="state.threethingsaboutme" autocomplete="threethingsaboutme" />
+            <x-jet-label for="threethingsaboutme" value="{{ __('3 things how you can be useful for other users') }}" />
+            <x-jet-input id="threethingsaboutme" type="text" placeholder="I can create websites, I know people in the banking sector" class="mt-1 block w-full" wire:model.defer="state.threethingsaboutme" autocomplete="threethingsaboutme" />
             <x-jet-input-error for="threethingsaboutme" class="mt-2" />
         </div>
 
