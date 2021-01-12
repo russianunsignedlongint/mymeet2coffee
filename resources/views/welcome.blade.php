@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>AI Matching</title>
+        <link rel="icon" href="img/icon.ico" type="image">
+        
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
