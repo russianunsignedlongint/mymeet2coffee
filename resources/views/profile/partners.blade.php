@@ -109,7 +109,8 @@
 
         <div class="mt-3 max-w-xl text-sm text-gray-600">
             <p>
-                Contact data to your partner should appear here by Sunday. If they won't, contact us!
+                Contact data to your partner should appear here by Wednesday. If they won't, contact us!
+                info.meet2coffee@gmail.com
             </p>
         </div>
 
