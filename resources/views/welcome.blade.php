@@ -8,7 +8,7 @@
         
         
        
-        <link rel="shortcut icon" sizes="114x114" href="assets/img/icon1.png">
+        <link rel="shortcut icon" sizes="32x32" href="public/img/icon1.png">
         
 
         <!-- Fonts -->
