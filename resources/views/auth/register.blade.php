@@ -23,7 +23,7 @@
 
         <x-jet-validation-errors class="mb-4" />
 
-        <h1>Meet2Coffee</h1>
+        <h1>AI Matching</h1>
 
         <form method="POST" action="{{ route('register') }}">
             @csrf
