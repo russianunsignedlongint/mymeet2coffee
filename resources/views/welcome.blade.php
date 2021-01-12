@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>AI Matching</title>
-        <link rel="icon" href="img/icon.ico" type="image">
+        <link rel="icon" href="public/img/icon.ico" type="image">
         
 
         <!-- Fonts -->
