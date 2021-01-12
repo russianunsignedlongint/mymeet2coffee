@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-    <title>App Name - @yield('title')</title>
+        <title>AI Matching</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         
         
        
-        <link rel="icon" href="{{ URL::asset('favicon.ico') }}" type="image/x-icon"/>
+        <link rel="shortcut icon" sizes="32x32" href="public/img/icon1.ico">
         
 
         <!-- Fonts -->
