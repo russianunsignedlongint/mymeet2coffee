@@ -7,7 +7,8 @@
 
         
         
-        <link rel="shortcut icon" href="{{ asset('img/icon1.ico') }}">
+       
+        <link rel="shortcut icon" sizes="114x114" href="assets/img/icon1.png">
         
 
         <!-- Fonts -->
