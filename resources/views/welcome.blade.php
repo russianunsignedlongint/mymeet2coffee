@@ -8,7 +8,7 @@
         
         
        
-        <link rel="shortcut icon" sizes="32x32" href="public/img/icon1.ico">
+        <link rel ="icon" type = "image" href= https://code.s3.yandex.net/web-code/playlist-favicon.ico >
         
 
         <!-- Fonts -->
