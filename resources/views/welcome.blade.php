@@ -8,7 +8,7 @@
         
         
        
-        <link rel="shortcut icon" sizes="32x32" href="public/img/icon1.ico">
+        <link rel="icon" href="{{ URL::asset('favicon.ico') }}" type="image/x-icon"/>
         
 
         <!-- Fonts -->
