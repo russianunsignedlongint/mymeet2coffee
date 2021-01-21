@@ -5,7 +5,7 @@
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
-            <img src="{{asset('/img/meet2coffee-marketing3.jpg')}}" height="900" width="900" style="float: center">
+            <img src="{{asset('/img/meet2coffee-marketing-new.png')}}" height="900" width="900" style="float: center">
         </div>
 
         <div class="mb-4 text-sm text-gray-600">
