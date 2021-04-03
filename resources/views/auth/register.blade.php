@@ -57,7 +57,7 @@
 
             <div class="mt-4">
                 <x-jet-label for="work" value="{{ __('Briefly describe where you work or what you study.') }}" />
-                <x-jet-input id="work" class="block mt-1 w-full" placeholder="I study medicine and work at a hospital." type="text" name="work" :value="old('work')" required autofocus autocomplete="work" />
+                <x-jet-input id="work" class="block mt-1 w-full" placeholder="I study engineering and work at a BMW." type="text" name="work" :value="old('work')" required autofocus autocomplete="work" />
             </div>
 
             <div class="mt-4">
