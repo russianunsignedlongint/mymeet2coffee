@@ -64,24 +64,24 @@
                 <x-jet-label for="hobbies" value="{{ __('What are your interests and passions (4 hobbies)?') }}" />
                 <x-jet-input id="hobbies" class="block mt-1 w-full" placeholder="Tennis, Travel, Startups, Chess etc." type="text" name="hobbies" :value="old('hobbies')" required autofocus autocomplete="hobbies" />
             </div>
-<!--
+
             <div class="mt-4">
                 <x-jet-label for="plans" value="{{ __('Where do you see yourself in 10 years?') }}" />
                 <x-jet-input id="plans" class="block mt-1 w-full" placeholder="Describe yourself in 10 years." type="text" name="plans" :value="old('plans')" required autofocus autocomplete="plans" />
             </div>
-            -->
+            
 
             <div class="mt-4">
                 <x-jet-label for="threethingsaboutme" value="{{ __('Describe shortly why other users should be interested in meeting you?') }}" />
                 <x-jet-input id="threethingsaboutme" class="block mt-1 w-full" placeholder="I am superhero because..." type="text" name="threethingsaboutme" :value="old('threethingsaboutme')" required autofocus autocomplete="threethingsaboutme" />
             </div>
             
-            <!--
+            
             <div class="mt-4">
                 <x-jet-label for="why" value="{{ __('Why are you interested in using our service?') }}" />
                 <x-jet-input id="why" class="block mt-1 w-full" placeholder="Tell us what you expect from Meet2Coffee." type="text" name="why" :value="old('why')" required autofocus autocomplete="why" />
             </div>
-            -->
+            
             <div class="mt-4">
                 <x-jet-label for="socialmedia" value="{{ __('Link on social media') }}" />
                 <x-jet-input id="socialmedia" class="block mt-1 w-full" placeholder="Facebook, Instagram, LinkedIn, etc." type="text" name="socialmedia" :value="old('socialmedia')" required autofocus autocomplete="socialmedia" />
